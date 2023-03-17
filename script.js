@@ -21,12 +21,13 @@ function letterCombinations(input_digit) {
   }
   
   // Call the recursive function with an empty combination and the full input digits string
-  if (digits) {
-    backtrack('', digits);
+  if (input_digit) {
+    backtrack('', input_digit);
   }
   
   // Return the array of letter combinations, sorted lexicographically
   return result.sort();
+	
 }
 
 module.exports = letterCombinations;
