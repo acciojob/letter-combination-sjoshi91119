@@ -1,6 +1,3 @@
-function letterCombinations(input_digit) {
-  //Complete the function
-
 if (input_digit.length == 0) {
     var arr = [];
     arr.push("");
@@ -19,6 +16,3 @@ if (input_digit.length == 0) {
     }
   }
   return ans;
-}
-
-module.exports = letterCombinations;
