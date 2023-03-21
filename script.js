@@ -1,4 +1,15 @@
-if (input_digit.length == 0) {
+var obj11 = {
+  2: "abc",
+  3: "def",
+  4: "ghi",
+  5: "jkl",
+  6: "mno",
+  7: "pqrs",
+  8: "tuv",
+  9: "wxyz",
+};
+function letterCombinations(input_digit) {
+  if (input_digit.length == 0) {
     var arr = [];
     arr.push("");
     return arr;
@@ -16,3 +27,6 @@ if (input_digit.length == 0) {
     }
   }
   return ans;
+}
+
+module.exports = letterCombinations;
